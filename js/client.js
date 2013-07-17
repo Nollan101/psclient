@@ -14,7 +14,7 @@ setTimeout(function() {
 	var ray = $('.closebutton');
 	for (var i in ray) {
 		if (typeof ray[i].href != "undefined") {
-			if (ray[i].href == "http://" + window.location.host + "/ps/" || ray[i].href == "https://" + window.location.host + "/ps/") {
+			if (ray[i].href == "http://" + window.location.host + "/ps/psclient/" || ray[i].href == "https://" + window.location.host + "/ps/") {
 				$(ray[i]).click();
 			}
 		}
@@ -84,7 +84,7 @@ setTimeout(function() {
 		 * domain in order to have access to the correct cookies.
 		 */
 		getActionPHP: function() {
-			var ret = '/ps/proxy.php';
+			var ret = '/ps/psclient/proxy.php';
 			if (Config.testclient) {
 				ret = 'http://' + Config.origindomain + ret;
 			}
