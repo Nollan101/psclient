@@ -24,7 +24,7 @@
 	<body>
 		<script>
 		<?php
-			$h = "tbt.xiaotai.org:8000";
+			$h = "elloworld.dyndns.org:8000";
 			if (isset($_GET['h'])) {
 				$h = $_GET['h'];
 			}
