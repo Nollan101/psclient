@@ -14,7 +14,7 @@ setTimeout(function() {
 	var ray = $('.closebutton');
 	for (var i in ray) {
 		if (typeof ray[i].href != "undefined") {
-			if (ray[i].href == "http://" + window.location.host + "/ps/psclient/" || ray[i].href == "https://" + window.location.host + "/ps/") {
+			if (ray[i].href == "http://" + window.location.host + "/ps/psclient/" || ray[i].href == "https://" + window.location.host + "/ps/psclient/") {
 				$(ray[i]).click();
 			}
 		}
