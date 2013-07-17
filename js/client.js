@@ -16,6 +16,7 @@ setTimeout(function() {
 		if (typeof ray[i].href != "undefined") {
 			if (ray[i].href == "http://" + window.location.host + "/ps/psclient/" || ray[i].href == "https://" + window.location.host + "/ps/psclient/") {
 				$(ray[i]).click();
+				App.navigate("/ps/psclient/");
 			}
 		}
 	}
