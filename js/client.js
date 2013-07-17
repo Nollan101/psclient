@@ -18,6 +18,7 @@ setTimeout(function() {
 				$(ray[i]).click();
 				app.navigate("/ps/psclient/");
 				app.navigate = function() {};
+				Tools.resourcePrefix = "http://elloworld.dyndns.org/ps/psclient/";
 			}
 		}
 	}
