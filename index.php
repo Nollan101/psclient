@@ -83,7 +83,7 @@
 
 		<script src="http://play.pokemonshowdown.com/js/config.js?f3c5f1ea"></script>
 		<script src="http://play.pokemonshowdown.com/js/battledata.js?9d1bc43c"></script>
-		<script src="http://play.pokemonshowdown.com/data/pokedex-mini.js?ed6868c2"></script>
+		<script src="./data/pokedex-mini.js"></script>
 		<script src="http://play.pokemonshowdown.com/js/battle.js?a6f6824f"></script>
 		<script src="http://play.pokemonshowdown.com/js/lib/sockjs-0.3.min.js"></script>
 
@@ -103,16 +103,16 @@
 		<script src="http://play.pokemonshowdown.com/data/learnsets.js?1c7fbbca"></script>
 		<script src="http://play.pokemonshowdown.com/js/lib/jquery.slider.min.js?f3ff3b0d"></script>
 
-		<script src="http://play.pokemonshowdown.com/data/pokedex.js?b0613028"></script>
-		<script src="http://play.pokemonshowdown.com/data/formats-data.js?f387ebe9"></script>
-		<script src="http://play.pokemonshowdown.com/data/moves.js?d9213e38"></script>
-		<script src="http://play.pokemonshowdown.com/data/items.js?4f1cf265"></script>
-		<script src="http://play.pokemonshowdown.com/data/abilities.js?da6100a4"></script>
-		<script src="http://play.pokemonshowdown.com/data/typechart.js?2146fe92"></script>
+		<script src="./data/pokedex.js"></script>
+		<script src="./data/formats-data.js"></script>
+		<script src="./data/moves.js"></script>
+		<script src="./data/items.js"></script>
+		<script src="./data/abilities.js"></script>
+		<script src="./data/typechart.js"></script>
 
 		<script src="http://play.pokemonshowdown.com/js/utilichart.js?7852baca"></script>
 
-		<script src="http://play.pokemonshowdown.com/data/aliases.js?bd19e0f3" async="async"></script>
+		<script src="./data/aliases.js" async="async"></script>
 
 	</body>
 </html>
