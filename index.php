@@ -100,7 +100,7 @@
 			var app = new App();
 		</script>
 
-		<script src="http://play.pokemonshowdown.com/data/learnsets.js?1c7fbbca"></script>
+		<script src="./data/learnsets.js"></script>
 		<script src="http://play.pokemonshowdown.com/js/lib/jquery.slider.min.js?f3ff3b0d"></script>
 
 		<script src="./data/pokedex.js"></script>
