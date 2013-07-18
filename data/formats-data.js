@@ -1,4 +1,12 @@
 exports.BattleFormatsData = {
+	xerneas: {
+                inherit: true,
+                tier: 'Uber'
+        },
+        yveltal: {
+                inherit: true,
+                tier: 'Uber'
+        },        
 	missingno: {
 		isNonstandard: true,
 		tier: ""
